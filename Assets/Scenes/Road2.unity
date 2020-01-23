@@ -711,7 +711,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Speed: 300
---- !u!114 &1485942998
+--- !u!114 &1485942997
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -720,10 +720,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 1485942994}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5cc2ca51be0ee614f87d2054f1d1611f, type: 3}
+  m_Script: {fileID: 11500000, guid: 9f618319a8f092845815984f319c7fe6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  RespawnPos: {fileID: 0}
 --- !u!1001 &1586444366
 PrefabInstance:
   m_ObjectHideFlags: 0

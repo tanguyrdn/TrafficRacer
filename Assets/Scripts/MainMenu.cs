@@ -7,7 +7,17 @@ public class MainMenu : MonoBehaviour
 {
     public void PlayGame()
     {
-        SceneManager.LoadScene("Road2");
+        SceneManager.LoadScene("UIPath2");
 
+    }
+
+    public void ChooseRoad1()
+    {
+        SceneManager.LoadScene("Road1");
+    }
+
+    public void ChooseRoad2()
+    {
+        SceneManager.LoadScene("Road2");
     }
 }
