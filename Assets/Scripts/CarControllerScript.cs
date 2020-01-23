@@ -6,8 +6,7 @@ public class CarControllerScript : MonoBehaviour
 {
     [SerializeField]
     private float Speed;
-    [SerializeField]
-    private float RotationSpeed;
+    
 
     /*[SerializeField]
     [Range(0,500)]
@@ -30,11 +29,11 @@ public class CarControllerScript : MonoBehaviour
                 Debug.Log(t.position);
                 if (t.position.x > Screen.width / 2)
                 {
-                    GetComponent<Rigidbody>().AddForce(new Vector3(10, 0, 0));
+                    GetComponent<Rigidbody>().AddForce(new Vector3(20, 0, 0));
                 }
                 else
                 {
-                    GetComponent<Rigidbody>().AddForce(new Vector3(-10, 0, 0));
+                    GetComponent<Rigidbody>().AddForce(new Vector3(-20, 0, 0));
                 }
             }
         }
